@@ -41,6 +41,9 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Продажи</subsystems>
+  <commonPictures>CommonPicture.Продажи</commonPictures>
+  <commonModules>CommonModule.РаботаСДокументамиКлиент</commonModules>
+  <commonModules>CommonModule.РаботаСДокументамиСервер</commonModules>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>

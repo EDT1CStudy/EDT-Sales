@@ -230,6 +230,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
+        <autoMarkIncomplete>true</autoMarkIncomplete>
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
@@ -280,6 +281,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
+        <autoMarkIncomplete>true</autoMarkIncomplete>
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
@@ -383,6 +385,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Товары.Номенклатура</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ТоварыНоменклатураПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ТоварыНоменклатураРасширеннаяПодсказка</name>
         <id>31</id>
@@ -433,6 +439,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Товары.Количество</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ТоварыКоличествоПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ТоварыКоличествоРасширеннаяПодсказка</name>
         <id>34</id>
@@ -483,6 +493,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Товары.Цена</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ТоварыЦенаПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ТоварыЦенаРасширеннаяПодсказка</name>
         <id>37</id>
@@ -533,6 +547,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Товары.Сумма</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ТоварыСуммаПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ТоварыСуммаРасширеннаяПодсказка</name>
         <id>40</id>
