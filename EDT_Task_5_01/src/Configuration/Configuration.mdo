@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93a8f90e-a4c7-4cd4-a23a-148d2b6b7c0c">
+  <name>Продажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="32863a33-a7e4-4148-be04-4f668760dfd5"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="4d7fe6b3-b7d9-4a95-8ca9-185ecde0000e"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="51da78c7-3bcb-4e37-959b-6da7773abb84"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="0b3aac81-1fb3-4282-b262-9fbefa08e346"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="03c74d3f-c30f-4ef2-b85c-e88f3ee7f6fb"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="1459f946-9bc8-4228-8c8f-b60cedb36c14"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="d2f86196-d901-4787-b552-4ddf7f16a7cd"/>
+  <configurationExtensionCompatibilityMode>8.3.19</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <version>1.0.0.1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.19</compatibilityMode>
+  <languages uuid="af840a14-2c83-4e41-8b8f-d208a638f75d">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <documents>Document.РеализацияТоваровИУслуг</documents>
+  <enums>Enum.ТипНоменклатуры</enums>
+  <enums>Enum.ТипДокументаРеализации</enums>
+  <accumulationRegisters>AccumulationRegister.ПродажиПоНоменклатуре</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ПродажиПоКонтрагентам</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Выручка</accumulationRegisters>
+</mdclass:Configuration>

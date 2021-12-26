@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="698ff18f-c4d3-4b6b-bda6-cf30bd92a218">
+  <producedTypes>
+    <refType typeId="f7478ae3-8113-44c3-8310-cecf358f5835" valueTypeId="9b57aecc-2247-485e-91ef-3fa64ac26b6b"/>
+    <listType typeId="62ce87dc-636e-42d9-bd51-3f4f7cb54a50" valueTypeId="37630fbb-663e-4d64-954d-d4d3f20a899b"/>
+    <managerType typeId="8d1ad9c7-f611-4034-a7dc-7d8dddb602d9" valueTypeId="dafa1e12-4029-4108-a52e-76271da42515"/>
+  </producedTypes>
+  <name>ТипДокументаРеализации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип документа реализации</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="31b45357-7eac-4689-b62c-d5ad4a69f3f9">
+    <name>Продажа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="37a04845-b0b2-474c-bc54-e07009c928cb">
+    <name>ВозвратОтПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат от покупателя</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
